@@ -1,0 +1,76 @@
+body{
+    background: url(../mercado.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'popins', sans-serif;
+}
+#form{
+
+    width: 500px;
+    height: 360px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    font-size: 12px;
+}
+.volver
+{
+    color: white;
+    font-size: 65px;
+    padding: 10px 5px;
+    display: block;
+    transform:all 0.5s ease-in-out;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.volver:hover
+{
+    color:#0e7ebe;
+}
+#form h1{
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+}
+#form button{
+    padding: 20px;
+    margin-top: 40px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(9, 136, 240);
+    border: none;
+    border-radius: 1000px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.input-control input{
+    border: 2px solid #000000;
+    border-radius: 1000px;
+    display: block;
+    font-size: 17px;
+    padding: 10px;
+    width: 100%;
+}
+.input-control input:focus{
+    outline: 0;
+}
+.input-control.success input{
+    border-color: #000000;
+}
+.input-control.error input{
+    border-color: #ff3860;
+}
+.input-control.error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+label
+{
+    font-size: 20px;
+    margin-top: 20px;
+}

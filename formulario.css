@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/rmm8hrv.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: roboto-slab,serif;
+ font-weight: 400;
+ font-style: normal;
+ background-size: 3em 3em;
+ background: url(../FlaggerFormu.jpg) no-repeat;
+ background-position: left;
+ opacity: 1;
+ display: flex;
+ min-height: 100vh;
+}
+
+.form{
+    background-color: #ffffff;
+    margin:auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 /30%);
+    text-align: center;
+}
+
+.form_title{
+font-size: 2rem;
+margin-bottom: .5em;
+}
+.form_paragraph{
+    font-weight: 300;
+}
+.form_link{
+    font-weight: 400;
+    color: black;
+}
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form_group{
+    position: relative;
+    --color:#5757577e ;
+
+}
+.form_input{
+    width: 100%;
+    background: none ;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: roboto-slab,serif;
+}
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #3866f2;
+}
+
+
+
+.form_label{
+    color:var(--color);
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+
+}
+
+.form_submit{
+    background: #3866f2;
+    color: #fff;
+}
+.volver
+{
+    color: rgb(233, 177, 24);
+    font-size: 55px;
+    padding: 10px 5px;
+    display: block;
+    transform:all 0.5s ease-in-out;
+    margin-right: -60px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.volver:hover
+{
+    color:#0e7ebe;
+}
+.enviar
+{
+    color: white;
+    background-color: #061f70;
+    width: 300px;
+    height: 30px;
+}
+.enviar:hover
+{
+    background-color:#0e7ebe;
+}
+video
+{
+    width: 900px;
+    display: inline-block;
+    margin-bottom: -700px;
+    margin-right: 150px;
+    margin-left: -200px;
+}
